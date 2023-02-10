@@ -4,6 +4,9 @@
 # batsch
 
 <!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/batsch)](https://CRAN.R-project.org/package=batsch)
 <!-- badges: end -->
 
 `{batsch}` provides real-time PCR data sets by Batsch et al. (2008) in

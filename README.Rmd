@@ -17,6 +17,7 @@ library(tidyverse)
 # batsch
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/batsch)](https://CRAN.R-project.org/package=batsch)
 <!-- badges: end -->
 
 `{batsch}` provides real-time PCR data sets by Batsch et al. (2008) in tidy
@@ -53,7 +54,7 @@ remotes::install_github("ramiromagno/batsch")
 
 ### Rat SLC6A14
 
-```{r}
+```{r dpi=300, fig.width=8, fig.height=4}
 library(batsch)
 
 SLC6A14r %>%
@@ -70,7 +71,7 @@ SLC6A14r %>%
 
 ### Human SLC22A13
 
-```{r}
+```{r dpi=300, fig.width=8, fig.height=4}
 SLC22A13h %>%
   ggplot(mapping = aes(
     x = cycle,
@@ -85,7 +86,7 @@ SLC22A13h %>%
 
 ### Pig EMT
 
-```{r}
+```{r dpi=300, fig.width=8, fig.height=4}
 EMTp %>%
   ggplot(mapping = aes(
     x = cycle,
@@ -100,7 +101,7 @@ EMTp %>%
 
 ### Chicken ETT
 
-```{r}
+```{r dpi=300, fig.width=8, fig.height=4}
 ETTch %>%
   ggplot(mapping = aes(
     x = cycle,
@@ -115,7 +116,7 @@ ETTch %>%
 
 ### Human GAPDH
 
-```{r}
+```{r dpi=300, fig.width=8, fig.height=4}
 GAPDHh %>%
   ggplot(mapping = aes(
     x = cycle,
