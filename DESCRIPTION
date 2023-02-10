@@ -26,3 +26,5 @@ Depends:
 Imports: 
     magrittr,
     tibble
+URL: https://github.com/ramiromagno/batsch
+BugReports: https://github.com/ramiromagno/batsch/issues
