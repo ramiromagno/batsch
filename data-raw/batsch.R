@@ -80,7 +80,7 @@ read_dataset <- function(file, sheet) {
 
 sheets <- setNames(sheets, sheets)
 datasets <-
-  purrr::map(sheets, ~ read_dataset(file = data_file_path, sheet = .x),)
+  purrr::map(sheets, ~ read_dataset(file = data_file_path, sheet = .x))
 
 with(datasets,
      {
